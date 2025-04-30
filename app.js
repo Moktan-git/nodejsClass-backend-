@@ -35,8 +35,6 @@ app.patch("/books/:id",(req,res)=>{
 
 
 
-postgresql://postgres.qbfwlwzfqwucafpqasmf:cXizQMey6DxVyXEN@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres
-
 
 app.listen(3000,()=>{
   console.log("project/server/backend/node project has started at port 3000")

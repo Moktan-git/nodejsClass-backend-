@@ -5,7 +5,7 @@ const {Sequelize,DataTypes} = require("sequelize")  //destructuring of
 // const datatypes = sequelize.DataTypes
 
 
-const sequelize = new Sequelize("postgresql://postgres.qbfwlwzfqwucafpqasmf:cXizQMey6DxVyXEN@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres") // class instantation (class bata object banauna--nakxa bata ghar banauna)
+const sequelize = new Sequelize("process.env.HELLO") // class instantation (class bata object banauna--nakxa bata ghar banauna)
 
 sequelize.authenticate()
 .then(()=>{
