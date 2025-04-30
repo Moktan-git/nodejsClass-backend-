@@ -15,8 +15,8 @@ sequelize.authenticate()
   console.log("Error aayo," + err)
 })
 
-const db = {}
-db.Sequelize = Sequelize
-db.sequelize = sequelize
+// const db = {}
+// db.Sequelize = Sequelize
+// db.sequelize = sequelize
 
-module.exports = db
+// module.exports = db
