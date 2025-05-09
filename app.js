@@ -1,7 +1,7 @@
 const express = require("express")// express require gareko
 const app = express() // express lai trigger garda
 
-require("./database/connection")
+require("./database/connection.js")
 // const app = require("express")()  --- short-cut-->
 
 
@@ -34,10 +34,15 @@ app.patch("/books/:id",(req,res)=>{
 })
 
 
+// DATABASE_URL="postgresql://postgres.qbfwlwzfqwucafpqasmf:mynameisresham@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
 
 
-app.listen(3000,()=>{
-  console.log("project/server/backend/node project has started at port 3000")
+
+
+
+app.listen(4000,()=>{
+  console.log("project/server/backend/node project has started at port 4000")
 })
+
 
 
